@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 4545;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/userProfiles')
+mongoose.connect('mongodb+srv://suraj:Og63m5YlQaO1cCSs@cluster0.6hqfg9t.mongodb.net/')
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.log(err));
 
